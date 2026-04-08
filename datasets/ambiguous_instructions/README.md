@@ -14,7 +14,7 @@
 
 ## Description
 
-Autonomous systems, accessibility tools, and OCR pipelines all assume signs are crisp and well-lit. They rarely are. This dataset captures the gradient from perfectly readable to functionally invisible. Most of the images are captured using an iPhone or Smartphone camera.
+NLP models parse grammar well but struggle with pragmatic ambiguity — the kind that makes a human re-read a sentence three times. This is directly relevant to human factors research: if a human misinterprets an instruction, an AI advisory system might too.
 
 ## Label Schema
 

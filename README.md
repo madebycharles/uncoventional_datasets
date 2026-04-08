@@ -53,23 +53,6 @@ created: YYYY-MM-DD
 
 ---
 
-### 3 · Surface Wear Textures
-
-**What:** Close-up images of everyday surfaces at different stages of use and deterioration — shoe soles, keyboard keys, door handles, stair edges, floor tiles, painted walls, book spines.
-
-**Why it matters:** Wear patterns encode usage history. Predictive maintenance, forensic analysis, material science, and even UX research (which button gets pressed most?) all benefit from systematic visual data on how surfaces degrade through interaction.
-
-**Label schema:**
-- `wear_level` (0–5 scale, 0 = new)
-- `material` (metal | plastic | wood | fabric | rubber | stone | paint | leather | other)
-- `object` (free text, e.g., "office chair armrest")
-- `wear_pattern` (abrasion | discolouration | deformation | cracking | polishing)
-- `estimated_age` (optional, order of magnitude)
-
-**Collection method:** Macro photography of everyday objects. Pairs of new vs. worn versions of the same object type are especially valuable.
-
----
-
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). The short version:
