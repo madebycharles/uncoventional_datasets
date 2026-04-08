@@ -30,7 +30,7 @@ Autonomous systems, accessibility tools, and OCR pipelines all assume signs are 
 
 ## Collection Method
 
-Contributed instructions from everyday environments and social media.
+Contributed instructions from everyday environments and social media. Manual transcription from real-world sources. No synthetic generation; the point is that these were written by humans who thought they were being clear.
 
 ## Known Limitations
 
