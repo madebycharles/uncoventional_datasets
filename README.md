@@ -45,30 +45,11 @@ created: YYYY-MM-DD
 
 ## Datasets
 
-| # | Dataset | Modality | Status |
-|---|---------|----------|--------|
-| 1 | `degraded-signage` | Image | 🟡 In Progress |
-| 2 | `ambiguous-instructions` | Text | 🟡 In Progress |
-| 3 | `surface-wear-textures` | Image | 🟡 In Progress |
-
----
-
-## Dataset Groups
-
-### 1 · Degraded Signage
-
-**What:** Images of signs at various stages of legibility — sun-bleached, partially obscured, vandalised, weathered, poorly lit, or otherwise compromised.
-
-**Why it matters:** Autonomous systems, accessibility tools, and OCR pipelines all assume signs are crisp and well-lit. They rarely are. This dataset captures the gradient from perfectly readable to functionally invisible.
-
-**Label schema:**
-- `legibility_score` (0–5 scale, 0 = unreadable)
-- `degradation_type` (faded | obscured | damaged | poorly_lit | other)
-- `sign_category` (road | commercial | wayfinding | safety | informational)
-- `original_text` (ground truth where recoverable)
-- `environment` (urban | suburban | rural | indoor)
-
-**Collection method:** Contributed photos from everyday environments. Phone camera quality is fine — that's the point.
+| #   | Dataset                  | Modality | Status        |
+| --- | ------------------------ | -------- | ------------- |
+| 1   | `degraded-signage`       | Image    | 🟡 In Progress |
+| 2   | `ambiguous-instructions` | Text     | 🟡 In Progress |
+| 3   | `surface-wear-textures`  | Image    | 🟡 In Progress |
 
 ---
 
