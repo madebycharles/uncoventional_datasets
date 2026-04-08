@@ -1,0 +1,11 @@
+name: dataset-slug
+version: "0.1.0"
+description: One-line description
+author: Charles Njoku
+license: CC-BY-4.0
+modality: image | text | audio | multimodal
+size: ~number of items
+labelling_method: manual | semi-automated | programmatic
+source: original-collection | web-scraped | derived
+tags: [tag1, tag2]
+created: YYYY-MM-DD
