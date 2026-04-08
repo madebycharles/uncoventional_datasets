@@ -53,23 +53,6 @@ created: YYYY-MM-DD
 
 ---
 
-### 2 · Ambiguous Instructions
-
-**What:** Real-world written instructions that are technically correct but practically confusing — assembly manuals, recipe steps, wayfinding text, policy language, UI microcopy, medical leaflets.
-
-**Why it matters:** NLP models parse grammar well but struggle with pragmatic ambiguity — the kind that makes a human re-read a sentence three times. This is directly relevant to human factors research: if a human misinterprets an instruction, an AI advisory system might too.
-
-**Label schema:**
-- `text` (the instruction as-is)
-- `source_domain` (product_manual | recipe | wayfinding | policy | medical | ui_copy | other)
-- `ambiguity_type` (syntactic | referential | scope | omission | jargon | cultural)
-- `misinterpretation_examples` (list of plausible wrong readings)
-- `severity` (cosmetic | inconvenient | safety_relevant)
-
-**Collection method:** Manual transcription from real-world sources. No synthetic generation — the point is that these were written by humans who thought they were being clear.
-
----
-
 ### 3 · Surface Wear Textures
 
 **What:** Close-up images of everyday surfaces at different stages of use and deterioration — shoe soles, keyboard keys, door handles, stair edges, floor tiles, painted walls, book spines.
