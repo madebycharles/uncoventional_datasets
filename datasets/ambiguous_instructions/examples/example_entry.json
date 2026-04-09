@@ -1,0 +1,11 @@
+{
+  "instruction_text": "Take one tablet twice daily.",
+  "source_category": "medical",
+  "source": "Prescription medication label",
+  "ambiguity_type": "omission",
+  "misinterpretation_examples": [
+    "With or without food?",
+    "At fixed 12-hour intervals or just morning and evening?"
+  ],
+  "severity": "safety_relevant"
+}

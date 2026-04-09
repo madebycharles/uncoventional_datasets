@@ -1,11 +1,11 @@
-name: dataset-slug
+name: surface-wear-textures
 version: "0.1.0"
-description: One-line description
+description: Close-up images of everyday surfaces at different stages of use and deterioration
 author: Charles Njoku
 license: CC-BY-4.0
-modality: image | text | audio | multimodal
-size: ~number of items
-labelling_method: manual | semi-automated | programmatic
-source: original-collection | web-scraped | derived
-tags: [tag1, tag2]
-created: YYYY-MM-DD
+modality: image
+size: "~0 items"
+labelling_method: manual
+source: original-collection
+tags: [vision, texture, wear, material-science, image]
+created: 2026-04-08

@@ -1,11 +1,11 @@
-name: dataset-slug
+name: ambiguous-instructions
 version: "0.1.0"
-description: One-line description
+description: Real-world written instructions that are technically correct but practically confusing
 author: Charles Njoku
 license: CC-BY-4.0
-modality: image | text | audio | multimodal
-size: ~number of items
-labelling_method: manual | semi-automated | programmatic
-source: original-collection | web-scraped | derived
-tags: [tag1, tag2]
-created: YYYY-MM-DD
+modality: text
+size: "~15 items"
+labelling_method: manual
+source: original-collection
+tags: [nlp, ambiguity, instructions, human-factors, text]
+created: 2026-04-08

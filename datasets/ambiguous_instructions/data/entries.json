@@ -1,0 +1,167 @@
+[
+  {
+    "instruction_text": "Press any key to continue.",
+    "source_category": "ui_copy",
+    "source": "Generic operating system dialogue",
+    "ambiguity_type": "referential",
+    "misinterpretation_examples": [
+      "User searches for a key physically labeled 'Any'",
+      "Ambiguous which of 100+ keys qualifies"
+    ],
+    "severity": "cosmetic"
+  },
+  {
+    "instruction_text": "Add salt to taste.",
+    "source_category": "recipe",
+    "source": "Common recipe instruction, various sources",
+    "ambiguity_type": "omission",
+    "misinterpretation_examples": [
+      "How much — a pinch, a teaspoon, a tablespoon?",
+      "At what stage of cooking?"
+    ],
+    "severity": "inconvenient"
+  },
+  {
+    "instruction_text": "Turn left at the church.",
+    "source_category": "wayfinding",
+    "source": "Verbal directions, common expression",
+    "ambiguity_type": "referential",
+    "misinterpretation_examples": [
+      "Which church if there are multiple on the route?",
+      "Turn before or after passing the church?"
+    ],
+    "severity": "inconvenient"
+  },
+  {
+    "instruction_text": "Do not use if seal is broken.",
+    "source_category": "product_manual",
+    "source": "Generic product packaging, multiple brands",
+    "ambiguity_type": "scope",
+    "misinterpretation_examples": [
+      "Which seal — inner foil or outer cap?",
+      "Does 'broken' include slightly loose or only visibly damaged?"
+    ],
+    "severity": "safety_relevant"
+  },
+  {
+    "instruction_text": "Wash with similar colours.",
+    "source_category": "product_manual",
+    "source": "Clothing care label",
+    "ambiguity_type": "omission",
+    "misinterpretation_examples": [
+      "How similar? Any shade of blue? Just dark vs. light?",
+      "Does navy blue count as similar to black?"
+    ],
+    "severity": "cosmetic"
+  },
+  {
+    "instruction_text": "Store in a cool, dry place.",
+    "source_category": "product_manual",
+    "source": "Generic product storage instruction, multiple brands",
+    "ambiguity_type": "omission",
+    "misinterpretation_examples": [
+      "What temperature counts as cool — below 20°C? 15°C?",
+      "Does a kitchen pantry qualify as dry?"
+    ],
+    "severity": "inconvenient"
+  },
+  {
+    "instruction_text": "Take one tablet twice daily.",
+    "source_category": "medical",
+    "source": "Prescription medication label",
+    "ambiguity_type": "omission",
+    "misinterpretation_examples": [
+      "With or without food?",
+      "At fixed 12-hour intervals or just morning and evening?"
+    ],
+    "severity": "safety_relevant"
+  },
+  {
+    "instruction_text": "Apply a thin layer.",
+    "source_category": "product_manual",
+    "source": "Topical cream packaging",
+    "ambiguity_type": "omission",
+    "misinterpretation_examples": [
+      "How thin — 1mm, barely visible, or translucent?",
+      "Applied once or rubbed in until absorbed?"
+    ],
+    "severity": "inconvenient"
+  },
+  {
+    "instruction_text": "Keep away from children.",
+    "source_category": "product_manual",
+    "source": "Generic warning label, multiple product categories",
+    "ambiguity_type": "omission",
+    "misinterpretation_examples": [
+      "What distance counts — out of reach, or in a locked cabinet?",
+      "What age defines a child in this context?"
+    ],
+    "severity": "safety_relevant"
+  },
+  {
+    "instruction_text": "Allow to dry naturally.",
+    "source_category": "product_manual",
+    "source": "Hair dye product instructions",
+    "ambiguity_type": "omission",
+    "misinterpretation_examples": [
+      "How long — 10 minutes, an hour, overnight?",
+      "Does 'naturally' exclude a fan but permit open air indoors?"
+    ],
+    "severity": "cosmetic"
+  },
+  {
+    "instruction_text": "Insert Tab A into Slot B.",
+    "source_category": "product_manual",
+    "source": "Flat-pack furniture assembly guide",
+    "ambiguity_type": "referential",
+    "misinterpretation_examples": [
+      "No indication of orientation — which face of Tab A faces which direction?",
+      "Multiple Slot B candidates visible in the diagram"
+    ],
+    "severity": "inconvenient"
+  },
+  {
+    "instruction_text": "Simmer until reduced.",
+    "source_category": "recipe",
+    "source": "Cooking website, anonymous",
+    "ambiguity_type": "omission",
+    "misinterpretation_examples": [
+      "Reduced by how much — by half, by a third, until thick?",
+      "At what heat level counts as a simmer?"
+    ],
+    "severity": "inconvenient"
+  },
+  {
+    "instruction_text": "Suitable for all skin types.",
+    "source_category": "product_manual",
+    "source": "Skincare product label",
+    "ambiguity_type": "scope",
+    "misinterpretation_examples": [
+      "Does 'all' include clinically sensitive or allergy-prone skin?",
+      "Does it include skin with active eczema or psoriasis?"
+    ],
+    "severity": "safety_relevant"
+  },
+  {
+    "instruction_text": "Follow the on-screen instructions.",
+    "source_category": "product_manual",
+    "source": "Software installer dialog",
+    "ambiguity_type": "omission",
+    "misinterpretation_examples": [
+      "No context for which screen or what those instructions entail",
+      "Implies user should accept all defaults without review"
+    ],
+    "severity": "inconvenient"
+  },
+  {
+    "instruction_text": "Contact your nearest branch for details.",
+    "source_category": "policy",
+    "source": "Bank terms and conditions leaflet",
+    "ambiguity_type": "referential",
+    "misinterpretation_examples": [
+      "Nearest by physical distance or by account type?",
+      "No contact number, address, or website provided"
+    ],
+    "severity": "cosmetic"
+  }
+]

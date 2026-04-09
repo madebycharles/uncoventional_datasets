@@ -1,0 +1,1 @@
+# No external dependencies. Scripts use Python 3.10+ stdlib only.

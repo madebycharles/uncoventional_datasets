@@ -4,13 +4,13 @@
 
 ## Overview
 
-| Field    | Value     |
-| -------- | --------- |
-| Modality | image     |
-| Size     | ~N items  |
-| License  | CC-BY-4.0 |
-| Version  | 0.1.0     |
-| Status   | 🔴 Planned |
+| Field    | Value          |
+| -------- | -------------- |
+| Modality | image          |
+| Size     | ~N items       |
+| License  | CC-BY-4.0      |
+| Version  | 0.1.0          |
+| Status   | 🟡 In Progress |
 
 ## Description
 
@@ -33,14 +33,19 @@ Contributed photos from everyday environments. Phone camera quality is fine.
 
 ## Known Limitations
 
-What this dataset does NOT cover, known biases, and caveats.
+- Geographic bias toward the contributor's home region; signage conventions and degradation patterns vary significantly by country
+- Predominantly smartphone photography; controlled or professional imaging is not represented
+- Legibility scores are single-annotator ratings with no calibration baseline or reference images
+- Night-time and low-light photography is underrepresented in the early collection
+- Non-Latin scripts are not currently represented
 
 ## Citation
 
 ```bibtex
-@misc{unconventional_dataset},
+@misc{unconventional_degraded_signage,
   author = {Njoku, Charles},
-  title = {{Degraded Signage}},
-  year = {2026},
-  url = {https://github.com/madebycharles/unconventional_datasets/tree/main/datasets/degraded_signage}
+  title  = {{Degraded Signage}},
+  year   = {2026},
+  url    = {https://github.com/madebycharles/unconventional_datasets/tree/main/datasets/degraded_signage}
+}
 ```
